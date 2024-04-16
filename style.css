@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(1, 1, 48);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    color: #fff;
+    background-color: rgb(14, 14, 94);
+    align-items: center;
+    text-align: center;
+}
+
+nav .left {
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: rgb(126, 126, 231);
+    font-size: 1.04rem;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+}
+
+.main>div {
+    width: 34%;
+}
+
+#element {
+    color: rgb(110, 73, 145);
+}
+
+.leftSection {
+    margin-top: 50px;
+    font-size: 50px;
+    color: #fff;
+
+    width: 34%;
+}
+
+.rightSection img {
+    width: 60%;
+    margin: 50px 0;
+    border-radius: 10px;
+
+}
+
+.color {
+    color: rgb(110, 73, 145);
+}
+
+main hr {
+    border: 0;
+    background: rgb(110, 73, 145);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.secondSection {
+    width: 80vh;
+    margin: 0 17vh;
+    height: 80vh;
+    color: #fff;
+
+}
+
+.text-grey {
+    color: rgb(110, 73, 145);
+
+}
+
+.secondSection .box {
+    width: 160vh;
+    height: 2px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 60px 60px;
+
+
+}
+
+.vertical {
+    height: 93px;
+    width: 1px;
+    background: white;
+    margin: 0 10px;
+    position: relative;
+
+}
+
+.vertical img {
+    width: 35px;
+    position: absolute;
+    top: -42px;
+    left: -19px;
+}
+
+.title {
+    position: absolute;
+    top: 114px;
+    left: -5px;
+    width: 50vh;
+    font-size: 8px;
+}
+
+.description {
+    position: absolute;
+    top: 160px;
+    left: -12px;
+    width: 24vh;
+    font-size: 15px;
+    color: rgb(110, 73, 145);
+}
+
+footer {
+    color: antiquewhite;
+    background: rgb(14, 14, 94);
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 55px
+}
+
+.footer .first-footer {
+    width: 30vh;
+    position: relative;
+}
+
+.footer h3 {
+    color: tomato;
+}
+
+.footer p {
+    padding: 10px 0;
+    color: rgb(214, 214, 225);
+    font-size: 18px;
+    width: 180px;
+}
+
+.footer .first-footer p {
+    width: 40vh;
+}
+
+.footer ul li img {
+    width: 45px;
+    padding: 10px 0;
+}
+
+.four-footer ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+
+}
+
+.last {
+    padding: 10px;
+    color: rgb(234, 227, 227);
+    font-size: 15px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
